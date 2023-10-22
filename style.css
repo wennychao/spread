@@ -3,7 +3,7 @@ body {
 }
 
 h1 {
-    color: rgb(255, 115, 0);
+    color: rgb(255, 108, 75);
     font-family: 'druk_wide_trialbold';
     font-size: 120px;
     src: url('./fonts/drukwide-bold-trial-demo.html') format('woff2'),
@@ -13,7 +13,7 @@ h1 {
 }
 
 p{
-    color: rgb(255, 132, 0);
+    color: rgb(255, 108, 75);
 }
 @font-face {
     font-family: 'druk_wide_trialbold';
@@ -32,5 +32,3 @@ p{
     font-style: normal;
 
 }
-
-:)
