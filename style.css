@@ -62,6 +62,9 @@ p{
     font-weight: bold;
     font-size: 14px;
     line-height: auto;
+    background-color: rgb(255, 108, 75);
+    max-width: 302px;
+    padding: 15px;
 }
 
 h3{color: black;
