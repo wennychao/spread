@@ -112,3 +112,8 @@ footer{
     padding-left: 19px;
     padding-right: 47px;  
 }
+
+footer:hover{
+   color: black; 
+   background-color: rgb(255, 108, 75);
+}
