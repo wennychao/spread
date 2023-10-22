@@ -1,3 +1,20 @@
+@font-face {
+    font-family: 'druk_wide_trialbold';
+    src: url('./fonts/drukwide-bold-trial-demo.html') format('woff2'),
+         url('./fonts/drukwide-bold-trial-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'druk_wide_trialmedium';
+    src: url('./fonts/drukwide-medium-trial-demo.html') format('woff2'),
+         url('./fonts/drukwide-medium-trial-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
 body {
     background-color: black;
 }
@@ -11,6 +28,7 @@ h1 {
     font-weight: normal;
     font-style: normal;
 }
+
 h2 {
     color: rgb(255, 108, 75);
     font-family: 'druk_wide_trialbold';
@@ -19,25 +37,9 @@ h2 {
     font-weight: normal;
     font-style: normal;
 }
+
 p{
     color: rgb(255, 108, 75);
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
-}
-@font-face {
-    font-family: 'druk_wide_trialbold';
-    src: url('./fonts/drukwide-bold-trial-demo.html') format('woff2'),
-         url('./fonts/drukwide-bold-trial-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-
-}
-
-@font-face {
-    font-family: 'druk_wide_trialmedium';
-    src: url('./fonts/drukwide-medium-trial-demo.html') format('woff2'),
-         url('./fonts/drukwide-medium-trial-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-
 }
