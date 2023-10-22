@@ -93,3 +93,22 @@ h4{color: rgb(255, 108, 75);
 .tab2 {
     margin-left: 40px;
 }
+
+
+
+
+footer{
+    
+    max-width: 50px;
+    color: rgb(255, 108, 75);
+    font-family: Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    border-style: solid;
+    border-width: 3px;
+    border-color: rgb(255, 108, 75);
+    padding-top: 21px;
+    padding-bottom: 28px;
+    padding-left: 19px;
+    padding-right: 47px;  
+}
