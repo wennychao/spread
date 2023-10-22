@@ -22,7 +22,8 @@ body {
 h1 {
     color: rgb(255, 108, 75);
     font-family: 'druk_wide_trialbold';
-    font-size: 120px;
+    font-size: 80.9px;
+    line-height: 67.5px;
     src: url('./fonts/drukwide-bold-trial-demo.html') format('woff2'),
          url('./fonts/drukwide-bold-trial-webfont.woff') format('woff');
     font-weight: normal;
@@ -32,14 +33,47 @@ h1 {
 h2 {
     color: rgb(255, 108, 75);
     font-family: 'druk_wide_trialmedium';
+    font-size:16.15px;
+    line-height:18.3px;
     src: url('./fonts/drukwide-medium-trial-demo.html') format('woff2'),
          url('./fonts/drukwide-medium-trial-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
 
-p{
+blockquote{
     color: rgb(255, 108, 75);
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
+    font-size:20px;
+    line-height:auto;
+    max-width: 133.16px;
+}
+
+p{
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: auto;
+}
+
+h3{color: black;
+    font-family: 'druk_wide_trialbold';
+    font-size: 60.37px;
+    line-height: 98.5%;
+    src: url('./fonts/drukwide-bold-trial-demo.html') format('woff2'),
+         url('./fonts/drukwide-bold-trial-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+h4{color: rgb(255, 108, 75);
+    font-family: 'druk_wide_trialmedium';
+    font-size: 18px;
+    line-height:auto;
+    src: url('./fonts/drukwide-medium-trial-demo.html') format('woff2'),
+         url('./fonts/drukwide-medium-trial-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
 }
