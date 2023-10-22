@@ -76,6 +76,9 @@ h3{color: black;
          url('./fonts/drukwide-bold-trial-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
+    background-color: rgb(255, 108, 75);
+    padding-top: 200px;
+    padding-bottom: 200px
 }
 
 h4{color: rgb(255, 108, 75);
