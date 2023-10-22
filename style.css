@@ -28,7 +28,7 @@ h1 {
          url('./fonts/drukwide-bold-trial-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
-    width: 401.85px;
+    width: 100%;
 }
 
 h2 {
