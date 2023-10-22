@@ -97,7 +97,7 @@ h4{color: rgb(255, 108, 75);
 
 
 
-footer{
+#top-button{
     
     max-width: 50px;
     color: rgb(255, 108, 75);
@@ -113,7 +113,7 @@ footer{
     padding-right: 47px;  
 }
 
-footer:hover{
+#top-button:hover{
    color: black; 
    background-color: rgb(255, 108, 75);
 }
