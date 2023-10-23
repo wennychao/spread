@@ -140,8 +140,7 @@ h4{color: rgb(255, 108, 75);
     height: 120.5px;
     border: 3px solid rgb(255, 108, 75);
     display: inline-block;
-    margin-right: 20px;
-
+    margin-right: 13.65px;
 }
 
 #wrap-square {
@@ -152,3 +151,32 @@ h4{color: rgb(255, 108, 75);
     white-space: nowrap;
     width: auto;
 }
+
+.inline-square2 {
+    width: 120.5px;
+    height: 120.5px;
+    border: 3px solid rgb(255, 108, 75);
+    display: inline-block;
+    margin-right: 12.61px;
+}
+.inline-rec {
+    width: 120.5px;
+    height: 179.84px;
+    border: 3px solid rgb(255, 108, 75);
+    display: inline-block;
+    margin-right: 12.61px;
+    vertical-align: top;
+}
+
+#wrap-square2 {
+    margin-left: 50px;
+    margin-top: -260px;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+    width: auto;
+}
+
+#empty-box {
+background-color: black;
+height: 250px;}
