@@ -56,6 +56,10 @@ blockquote{
     font-size:20px;
     line-height:auto;
     width: 133.16px;
+    background-color: black;
+    padding: 8px 0px 0px 10px;
+    margin-left: 72px;
+    margin-top: -100px;
 }
 
 p{
@@ -66,9 +70,11 @@ p{
     line-height: auto;
     background-color: rgb(255, 108, 75);
     max-width: 302px;
-    padding: 15px;
-    margin: 0;
+    padding:8px 15px 8px 15px;
+    margin: auto;
 }
+
+
 
 h3{
     color: black;
@@ -80,11 +86,8 @@ h3{
     font-weight: normal;
     font-style: normal;
     background-color: rgb(255, 108, 75);
-    padding-top: 200px;
-    padding-bottom: 200px;
-    padding-left:40px;
-    padding-right:40px;
-    width:100%
+    padding: 197px 36px 147px 36px;
+    margin:auto;
 }
 
 .emoticon{
@@ -92,6 +95,7 @@ h3{
     font-family: Helvetica, sans-serif;
     font-weight: bold;
     font-size: 60px;
+    margin-left: 50px;
 }
 
 h4{color: rgb(255, 108, 75);
@@ -102,6 +106,9 @@ h4{color: rgb(255, 108, 75);
          url('./fonts/drukwide-medium-trial-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
+    padding: 75px 69.5px;
+    border: 3px solid rgb(255, 108, 75);
+    margin: auto;
 }
 .tab1 {
     margin-left: 20px;
@@ -175,5 +182,25 @@ h4{color: rgb(255, 108, 75);
 }
 
 #empty-box {
-background-color: black;
-height: 250px;}
+    background-color: black;
+    height: 219px;
+}
+
+#behind-box {
+    width: 120.5px;
+    height: 120.5px;
+    border: 3px solid rgb(255, 108, 75);
+    margin-left: 52px;
+}
+
+#p1 {
+    padding-top: 24px;
+}
+
+#p5 {
+    padding-bottom: 26px;
+}
+
+#empty-box2 {
+    height: 50px;
+}
