@@ -110,7 +110,13 @@ h4{color: rgb(255, 108, 75);
     border: 3px solid rgb(255, 108, 75);
     margin: auto;
     max-width: 187px;
+    text-align: center;
 }
+
+#table {
+    text-align: left;
+}
+
 .tab1 {
     margin-left: 20px;
 }
