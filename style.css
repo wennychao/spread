@@ -291,7 +291,13 @@ blockquote{
 
 blockquote br {
     display: none;
-    }    
+    }   
+
+#table {
+        text-align: left;
+        margin: auto;
+    }
+
 }
 
     
