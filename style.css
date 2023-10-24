@@ -252,3 +252,13 @@ a {
     height: 71px;
 }
 
+@media screen (min-width:1280px){
+ h1{font-size:188.89px;
+ line-height:157.6px;}
+
+ h2{font-size:37.72px;
+line-height:42.8px;}
+ }
+}
+
+    
