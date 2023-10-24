@@ -100,7 +100,7 @@ h3{
 
 h4{color: rgb(255, 108, 75);
     font-family: 'druk_wide_trialmedium';
-    font-size: 18px;
+    font-size: 15px;
     line-height:auto;
     src: url('./fonts/drukwide-medium-trial-demo.html') format('woff2'),
          url('./fonts/drukwide-medium-trial-webfont.woff') format('woff');
