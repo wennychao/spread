@@ -28,7 +28,7 @@ h1 {
     font-weight: normal;
     font-style: normal;
     line-height: 67.5px;
-    margin: 12px -12px;
+    margin: 12px -8px;
 }
 
 h2 {
@@ -40,7 +40,7 @@ h2 {
          url('./fonts/drukwide-medium-trial-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
-    margin-left: -10px;
+    margin-left: -7px;
     margin-top: -18px;
 }
 
