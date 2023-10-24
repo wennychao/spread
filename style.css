@@ -154,7 +154,7 @@ h4{color: rgb(255, 108, 75);
     /*overflow-x: scroll;
     overflow-y: hidden;*/
     white-space: nowrap;
-    width: auto;
+    max-width: 375px;
 }
 
 .inline-square-two {
@@ -179,7 +179,7 @@ h4{color: rgb(255, 108, 75);
    /*overflow-x: scroll;
     overflow-y: hidden;*/
     white-space: nowrap;
-    width: auto;
+    max-width: 375px;
 }
 
 #empty-box {
