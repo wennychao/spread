@@ -254,6 +254,10 @@ a {
     height: 71px;
 }
 
+#left {
+    text-align: left;
+}
+
 @media screen and (min-width:1280px) {
 
 h1{
