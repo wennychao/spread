@@ -22,7 +22,7 @@ body {
 h1 {
     color: rgb(255, 108, 75);
     font-family: 'druk_wide_trialbold';
-    font-size: 80.9px;
+    font-size: 76px;
     src: url('./fonts/drukwide-bold-trial-demo.html') format('woff2'),
          url('./fonts/drukwide-bold-trial-webfont.woff') format('woff');
     font-weight: normal;
