@@ -19,7 +19,7 @@ body {
     background-color: black;
 }
 
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 600px) {
 
 h1 {
     color: rgb(255, 108, 75);
