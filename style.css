@@ -22,13 +22,13 @@ body {
 h1 {
     color: rgb(255, 108, 75);
     font-family: 'druk_wide_trialbold';
-    font-size: 76px;
+    font-size: 75px;
     src: url('./fonts/drukwide-bold-trial-demo.html') format('woff2'),
          url('./fonts/drukwide-bold-trial-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
     line-height: 67.5px;
-    margin: 12px -8px;
+    margin: 12px -5px;
 }
 
 h2 {
@@ -40,7 +40,7 @@ h2 {
          url('./fonts/drukwide-medium-trial-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
-    margin-left: -7px;
+    margin-left: -5px;
     margin-top: -18px;
 }
 
