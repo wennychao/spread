@@ -252,7 +252,7 @@ a {
     height: 71px;
 }
 
-@media screen (min-width:1280px){
+@media screen and (min-width:1280px) {
  h1{font-size:188.89px;
  line-height:157.6px;}
 
