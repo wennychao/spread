@@ -109,6 +109,7 @@ h4{color: rgb(255, 108, 75);
     padding: 75px 69.5px;
     border: 3px solid rgb(255, 108, 75);
     margin: auto;
+    max-width: 187px;
 }
 .tab1 {
     margin-left: 20px;
@@ -195,6 +196,7 @@ h4{color: rgb(255, 108, 75);
 
 #p1 {
     padding-top: 24px;
+    text-indent: 30px;
 }
 
 #p5 {
@@ -203,4 +205,40 @@ h4{color: rgb(255, 108, 75);
 
 #empty-box2 {
     height: 50px;
+}
+
+.orange-rec {
+    max-width: 252px;
+    height:53px;
+    background-color: rgb(255, 108, 75);
+    margin: auto;
+    margin-top: -10px;
+}
+
+#table {
+    margin-top: -50px;
+}
+
+.define {
+    margin-top: 98px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+
+.overlap {
+    margin-top: -18px;
+}
+
+.bottom-p {
+    padding-bottom: 16px;
+}
+
+.top-p {
+    padding-top: 16px;
+}
+
+.p-space {
+    margin-top: 71px;
+    padding-top: 16px;
+
 }
