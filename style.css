@@ -28,14 +28,14 @@ h1 {
     font-weight: normal;
     font-style: normal;
     line-height: 67.5px;
-    margin: 15px -5px;
+    margin: 14px -5px;
 }
 
 h2 {
     color: rgb(255, 108, 75);
     font-family: 'druk_wide_trialmedium';
-    font-size:16.15px;
-    line-height:19px;
+    font-size:14px;
+    line-height:17px;
     src: url('./fonts/drukwide-medium-trial-demo.html') format('woff2'),
          url('./fonts/drukwide-medium-trial-webfont.woff') format('woff');
     font-weight: normal;
@@ -172,10 +172,10 @@ h4{color: rgb(255, 108, 75);
     height: 114px;
     border: 3px solid rgb(255, 108, 75);
     display: inline-block;
-    margin-right: 12px;
+    margin-right: 7.5px;
 }
 .inline-rec {
-    width: 120.5px;
+    width: 137px;
     height: 179.84px;
     border: 3px solid rgb(255, 108, 75);
     display: inline-block;
@@ -184,8 +184,8 @@ h4{color: rgb(255, 108, 75);
 }
 
 #wrap-square-two {
-    margin-left: 55px;
-    margin-top: -260px;
+    margin-left: 45px;
+    margin-top: -256.5px;
    /*overflow-x: scroll;
     overflow-y: hidden;*/
     white-space: nowrap;
