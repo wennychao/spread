@@ -22,7 +22,7 @@ body {
 h1 {
     color: rgb(255, 108, 75);
     font-family: 'druk_wide_trialbold';
-    font-size: 75px;
+    font-size: 74px;
     src: url('./fonts/drukwide-bold-trial-demo.html') format('woff2'),
          url('./fonts/drukwide-bold-trial-webfont.woff') format('woff');
     font-weight: normal;
@@ -168,14 +168,14 @@ h4{color: rgb(255, 108, 75);
 }
 
 .inline-square-two {
-    width: 105px;
+    width: 102px;
     height: 114px;
     border: 3px solid rgb(255, 108, 75);
     display: inline-block;
-    margin-right: 7.5px;
+    margin-right: 5.8px;
 }
 .inline-rec {
-    width: 137px;
+    width: 135px;
     height: 179.84px;
     border: 3px solid rgb(255, 108, 75);
     display: inline-block;
@@ -184,7 +184,7 @@ h4{color: rgb(255, 108, 75);
 }
 
 #wrap-square-two {
-    margin-left: 45px;
+    margin-left: 46.5px;
     margin-top: -256.5px;
    /*overflow-x: scroll;
     overflow-y: hidden;*/
