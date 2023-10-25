@@ -57,7 +57,7 @@ blockquote{
     font-weight: bold;
     font-size:20px;
     line-height:auto;
-    width: 133.16px;
+    width: 150px;
     background-color: black;
     padding: 8px 0px 0px 10px;
     margin-left: 72px;
@@ -71,8 +71,7 @@ p{
     font-size: 16px;
     line-height: auto;
     background-color: rgb(255, 108, 75);
-
-    padding:8px 15px 8px 15px;
+    padding:15px 15px 8px 15px;
     margin: auto;
 }
 
@@ -216,7 +215,7 @@ footer {
 
 #empty-box {
     background-color: black;
-    height: 140px;
+    height: 141.5px;
 }
 
 #behind-box {
