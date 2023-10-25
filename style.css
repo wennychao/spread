@@ -28,14 +28,14 @@ h1 {
     font-weight: normal;
     font-style: normal;
     line-height: 67.5px;
-    margin: 12px -5px;
+    margin: 15px -5px;
 }
 
 h2 {
     color: rgb(255, 108, 75);
     font-family: 'druk_wide_trialmedium';
     font-size:16.15px;
-    line-height:18.3px;
+    line-height:19px;
     src: url('./fonts/drukwide-medium-trial-demo.html') format('woff2'),
          url('./fonts/drukwide-medium-trial-webfont.woff') format('woff');
     font-weight: normal;
