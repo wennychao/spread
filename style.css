@@ -88,6 +88,8 @@ h3{
     background-color: rgb(255, 108, 75);
     padding: 197px 36px 147px 36px;
     margin:auto;
+    margin-left: -8px;
+
 }
 
 .emoticon{
@@ -152,7 +154,7 @@ h4{color: rgb(255, 108, 75);
 }
 
 .footer-box {
-    width: 115.8px;
+    width: 100px;
     height: 115.8px;
     border: 3px solid rgb(255, 108, 75);
     margin-right: 10px;
