@@ -22,25 +22,25 @@ body {
 h1 {
     color: rgb(255, 108, 75);
     font-family: 'druk_wide_trialbold';
-    font-size: 75px;
+    font-size: 80.9px;
     src: url('./fonts/drukwide-bold-trial-demo.html') format('woff2'),
          url('./fonts/drukwide-bold-trial-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
     line-height: 67.5px;
-    margin: 15px -5px;
+    margin: 12px -10px;
 }
 
 h2 {
     color: rgb(255, 108, 75);
     font-family: 'druk_wide_trialmedium';
     font-size:16.15px;
-    line-height:19px;
+    line-height:18.3px;
     src: url('./fonts/drukwide-medium-trial-demo.html') format('woff2'),
          url('./fonts/drukwide-medium-trial-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
-    margin-left: -5px;
+    margin-left: -8px;
     margin-top: -18px;
 }
 
@@ -95,12 +95,12 @@ h3{
     font-family: Helvetica, sans-serif;
     font-weight: bold;
     font-size: 60px;
-    margin-left: 50px;
+    margin-left: 60px;
 }
 
 h4{color: rgb(255, 108, 75);
-    font-family: 'druk_wide_trialmedium', Helvetica, sans-serif;
-    font-size: 15px;
+    font-family: 'druk_wide_trialmedium';
+    font-size: 18px;
     line-height:auto;
     src: url('./fonts/drukwide-medium-trial-demo.html') format('woff2'),
          url('./fonts/drukwide-medium-trial-webfont.woff') format('woff');
@@ -111,10 +111,6 @@ h4{color: rgb(255, 108, 75);
     margin: auto;
     max-width: 187px;
     text-align: center;
-}
-
-#h4-aligned-left{
-    text-align: left;
 }
 
 #table {
@@ -130,25 +126,27 @@ h4{color: rgb(255, 108, 75);
 }
 
 #top-button{
-    
     max-width: 50px;
     color: rgb(255, 108, 75);
     font-family: Helvetica, sans-serif;
     font-weight: bold;
     font-size: 20px;
-    border-style: solid;
-    border-width: 3px;
+    border: 3px solid ;
     border-color: rgb(255, 108, 75);
     padding-top: 21px;
-    padding-bottom: 28px;
     padding-left: 19px;
-    padding-right: 47px;  
+    padding-right: 47px; 
+    padding-bottom: 28px;
+    margin: auto;
 }
 
 #top-button:hover{
-   color: black; 
    background-color: rgb(255, 108, 75);
 }
+
+a:hover {
+    color: rgb(0, 0, 0);
+  }
 
 .inline-square {
     width: 120.5px;
@@ -184,7 +182,7 @@ h4{color: rgb(255, 108, 75);
 }
 
 #wrap-square-two {
-    margin-left: 55px;
+    margin-left: 65px;
     margin-top: -260px;
    /*overflow-x: scroll;
     overflow-y: hidden;*/
