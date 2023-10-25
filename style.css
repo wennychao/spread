@@ -113,7 +113,7 @@ h4{color: rgb(255, 108, 75);
     padding: 75px 69.5px;
     border: 3px solid rgb(255, 108, 75);
     margin: auto;
-    max-width: 187px;
+    max-width: 170px;
     text-align: center;
 }
 
@@ -228,6 +228,7 @@ footer {
 #p1 {
     padding-top: 24px;
     text-indent: 30px;
+    font-weight: bold;
 }
 
 #p5 {
