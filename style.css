@@ -144,11 +144,27 @@ h4{color: rgb(255, 108, 75);
     padding-bottom: 28px;
     padding-left: 19px;
     padding-right: 47px;  
+    margin-right: 5.8px;
 }
 
 #top-button:hover{
    color: black; 
    background-color: rgb(255, 108, 75);
+}
+
+a{
+    color: black;
+}
+
+.footer-box {
+    width: 115.8px;
+    height: 115.8px;
+    border: 3px solid rgb(255, 108, 75);
+    margin-right: 5.8px;
+}
+
+footer {
+    display: flex;
 }
 
 .inline-square {
