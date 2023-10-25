@@ -67,11 +67,11 @@ blockquote{
 p{
     color: black;
     font-family: Helvetica, sans-serif;
-    font-weight: bold;
-    font-size: 14px;
+    font-weight: regular;
+    font-size: 16px;
     line-height: auto;
     background-color: rgb(255, 108, 75);
-    max-width: 302px;
+
     padding:8px 15px 8px 15px;
     margin: auto;
 }
@@ -287,8 +287,8 @@ a {
 @media screen and (min-width:1280px) {
 
 h1{
-    font-size:188.89px;
-    line-height:157.6px;}
+    font-size:131.5px;
+    line-height:110px;}
 
 #mobile-title {
     display: none;
