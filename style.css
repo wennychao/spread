@@ -29,6 +29,7 @@ h1 {
     font-style: normal;
     line-height: 67.5px;
     margin: 14px -5px;
+    max-width: 302px;
 }
 
 h2 {
