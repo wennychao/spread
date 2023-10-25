@@ -31,6 +31,8 @@ h1 {
     margin: 14px -5px;
 }
 
+
+
 h2 {
     color: rgb(255, 108, 75);
     font-family: 'druk_wide_trialmedium';
@@ -98,7 +100,7 @@ h3{
     font-family: Helvetica, sans-serif;
     font-weight: bold;
     font-size: 60px;
-    margin-left: 33px;
+    margin-left: 38px;
 }
 
 h4{color: rgb(255, 108, 75);
@@ -287,6 +289,12 @@ a {
 h1{
     font-size:188.89px;
     line-height:157.6px;}
+
+#mobile-title {
+    display: none;
+}
+
+
 
 h2{
     font-size:37.72px;
