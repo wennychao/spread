@@ -22,12 +22,12 @@ body {
 h1 {
     color: rgb(255, 108, 75);
     font-family: 'druk_wide_trialbold';
-    font-size: 74px;
+    font-size: 74.2px;
     src: url('./fonts/drukwide-bold-trial-demo.html') format('woff2'),
          url('./fonts/drukwide-bold-trial-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
-    line-height: 67.5px;
+    line-height: 65px;
     margin: 14px -5px;
 }
 
@@ -43,7 +43,7 @@ h2 {
     font-weight: normal;
     font-style: normal;
     margin-left: -5px;
-    margin-top: -18px;
+    margin-top: -17px;
 }
 
 .and-symbol{
@@ -190,14 +190,14 @@ footer {
 
 .inline-square-two {
     width: 102px;
-    height: 114px;
+    height: 110px;
     border: 3px solid rgb(255, 108, 75);
     display: inline-block;
     margin-right: 5.8px;
 }
 .inline-rec {
-    width: 135px;
-    height: 179.84px;
+    width: 136px;
+    height: 175px;
     border: 3px solid rgb(255, 108, 75);
     display: inline-block;
     margin-right: 12px;
@@ -205,8 +205,8 @@ footer {
 }
 
 #wrap-square-two {
-    margin-left: 46.5px;
-    margin-top: -256.5px;
+    margin-left: 47px;
+    margin-top: -250px;
    /*overflow-x: scroll;
     overflow-y: hidden;*/
     white-space: nowrap;
