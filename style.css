@@ -19,7 +19,7 @@ body {
     background-color: black;
 }
 
-#mobile-title {
+h1 {
     color: rgb(255, 108, 75);
     font-family: 'druk_wide_trialbold';
     font-size: 74.2px;
@@ -31,13 +31,13 @@ body {
     margin: 14px -5px;
 }
 
-#desktop-title {
+/*#desktop-title {
     display: none;
 }
 
 .desktop-square {
     display: none;
-}
+}*/
 
 h2 {
     color: rgb(255, 108, 75);
@@ -195,6 +195,10 @@ footer {
     margin-right: 5.8px;
 }
 
+#bonus-square {
+    visibility: hidden;
+}
+
 #wrap-square {
     margin-left: -60px;
     margin-top: -80px;
@@ -301,11 +305,12 @@ a {
 
 @media screen and (min-width:1048px) {
 
-#mobile-title {
+/*#mobile-title {
     display: none;
 }
 
 #desktop-title{
+    visibility: visible;
     font-size:202px;
     line-height:165px;
     color: rgb(255, 108, 75);
@@ -314,7 +319,7 @@ a {
          url('./fonts/drukwide-bold-trial-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
-}
+}*/
 
 /*#wrap-square #wrap-square-two {
     display: none;
@@ -323,7 +328,10 @@ a {
 .inline-square .inline-square-two {
     display: none;
 }*/
-
+h1 {
+    font-size:202px;
+    line-height:165px;
+}
 h2{
     font-size:37.72px;
     line-height:42.8px;}
@@ -362,6 +370,13 @@ blockquote br {
         margin: auto;
     }
 
+#bonus-square {
+    visibility: visible;
+    }
+
+.inline-square {
+    border: 7px solid rgb(255, 108, 75);
+}
 }
 
     
