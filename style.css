@@ -31,7 +31,7 @@ body {
     margin: 14px -5px;
 }
 
-#mobile-title::after {
+#desktop-title {
     display: none;
 }
 
