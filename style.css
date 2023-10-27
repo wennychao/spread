@@ -57,11 +57,15 @@ blockquote{
     font-weight: bold;
     font-size:20px;
     line-height:auto;
-    width: 220px;
+    width: 230px;
     background-color: black;
     padding: 8px 0px 0px 10px;
     margin-left: 72px;
     margin-top: -100px;
+}
+
+blockquote a {
+    text-decoration: underline;
 }
 
 p{
@@ -134,7 +138,6 @@ h4{color: rgb(255, 108, 75);
 }
 
 #top-button{
-    
     max-width: 50px;
     color: rgb(255, 108, 75);
     font-family: Helvetica, sans-serif;
@@ -151,13 +154,16 @@ h4{color: rgb(255, 108, 75);
 }
 
 #top-button:hover{
-   color: black; 
    background-color: rgb(255, 108, 75);
 }
 
-a:hover{
-    color: black
+#top-button:hover {
+color: black; 
 }
+
+/*a:hover{
+    color: black
+}*/
 
 .footer-box {
     width: 85px;
