@@ -35,6 +35,10 @@ body {
     display: none;
 }
 
+.desktop-square {
+    display: none;
+}
+
 h2 {
     color: rgb(255, 108, 75);
     font-family: 'druk_wide_trialmedium';
@@ -311,6 +315,14 @@ a {
     font-weight: normal;
     font-style: normal;
 }
+
+/*#wrap-square #wrap-square-two {
+    display: none;
+}
+
+.inline-square .inline-square-two {
+    display: none;
+}*/
 
 h2{
     font-size:37.72px;
