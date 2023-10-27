@@ -31,14 +31,9 @@ body {
     margin: 14px -5px;
 }
 
-#desktop-title {
-    font-size: 1px;
-    visibility: hidden;
-}
-
-/*.desktop-square {
+#mobile-title::after {
     display: none;
-}*/
+}
 
 h2 {
     color: rgb(255, 108, 75);
@@ -196,11 +191,6 @@ footer {
     margin-right: 5.8px;
 }
 
-#bonus-square {
-    width: 0.1px;
-    visibility: hidden;
-}
-
 #wrap-square {
     margin-left: -60px;
     margin-top: -80px;
@@ -305,16 +295,15 @@ a {
     text-align: left;
 }
 
-@media screen and (min-width:1280px) {
+@media screen and (min-width:1048px) {
 
 #mobile-title {
     display: none;
 }
 
 #desktop-title{
-    visibility: visible;
-    font-size: 180px;
-    line-height:150.5px;
+    font-size:202px;
+    line-height:170px;
     color: rgb(255, 108, 75);
     font-family: 'druk_wide_trialbold';
     src: url('./fonts/drukwide-bold-trial-demo.html') format('woff2'),
@@ -322,14 +311,6 @@ a {
     font-weight: normal;
     font-style: normal;
 }
-
-/*#wrap-square #wrap-square-two {
-    display: none;
-}
-
-.inline-square .inline-square-two {
-    display: none;
-}*/
 
 h2{
     font-size:37.72px;
