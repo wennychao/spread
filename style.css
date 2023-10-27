@@ -156,14 +156,14 @@ h4{color: rgb(255, 108, 75);
 }
 
 .footer-box {
-    width: 100px;
+    width: 85px;
     height: 115.8px;
     border: 3px solid rgb(255, 108, 75);
     margin-right: 10px;
 }
 
 .footer-box:nth-child(1) {
-    margin-left: 0.5px;
+    margin-left: 16px;
 }
 
 footer {
