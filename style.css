@@ -19,7 +19,7 @@ body {
     background-color: black;
 }
 
-h1 {
+#mobile-title {
     color: rgb(255, 108, 75);
     font-family: 'druk_wide_trialbold';
     font-size: 74.2px;
@@ -31,7 +31,9 @@ h1 {
     margin: 14px -5px;
 }
 
-
+#mobile-title::after {
+    display: none;
+}
 
 h2 {
     color: rgb(255, 108, 75);
@@ -295,15 +297,20 @@ a {
 
 @media screen and (min-width:1048px) {
 
-h1{
-    font-size:131.5px;
-    line-height:110px;}
-
 #mobile-title {
     display: none;
 }
 
-
+#desktop-title{
+    font-size:131.5px;
+    line-height:110px;
+    color: rgb(255, 108, 75);
+    font-family: 'druk_wide_trialbold';
+    src: url('./fonts/drukwide-bold-trial-demo.html') format('woff2'),
+         url('./fonts/drukwide-bold-trial-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
 
 h2{
     font-size:37.72px;
