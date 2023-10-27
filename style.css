@@ -158,13 +158,9 @@ h4{color: rgb(255, 108, 75);
    background-color: rgb(255, 108, 75);
 }
 
-#top-button:hover {
+#top-button:hover a{
 color: black; 
 }
-
-/*a:hover{
-    color: black
-}*/
 
 .footer-box {
     width: 85px;
