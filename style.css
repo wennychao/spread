@@ -19,7 +19,7 @@ body {
     background-color: black;
 }
 
-h1 {
+#mobile-title {
     color: rgb(255, 108, 75);
     font-family: 'druk_wide_trialbold';
     font-size: 74.2px;
@@ -31,11 +31,12 @@ h1 {
     margin: 14px -5px;
 }
 
-/*#desktop-title {
-    display: none;
+#desktop-title {
+    font-size: 1px;
+    visibility: hidden;
 }
 
-.desktop-square {
+/*.desktop-square {
     display: none;
 }*/
 
@@ -196,6 +197,7 @@ footer {
 }
 
 #bonus-square {
+    width: 0.1px;
     visibility: hidden;
 }
 
@@ -303,23 +305,23 @@ a {
     text-align: left;
 }
 
-@media screen and (min-width:1048px) {
+@media screen and (min-width:1280px) {
 
-/*#mobile-title {
+#mobile-title {
     display: none;
 }
 
 #desktop-title{
     visibility: visible;
-    font-size:202px;
-    line-height:165px;
+    font-size: 180px;
+    line-height:150.5px;
     color: rgb(255, 108, 75);
     font-family: 'druk_wide_trialbold';
     src: url('./fonts/drukwide-bold-trial-demo.html') format('woff2'),
          url('./fonts/drukwide-bold-trial-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
-}*/
+}
 
 /*#wrap-square #wrap-square-two {
     display: none;
@@ -328,10 +330,7 @@ a {
 .inline-square .inline-square-two {
     display: none;
 }*/
-h1 {
-    font-size:202px;
-    line-height:165px;
-}
+
 h2{
     font-size:37.72px;
     line-height:42.8px;}
@@ -377,6 +376,30 @@ blockquote br {
 .inline-square {
     border: 7px solid rgb(255, 108, 75);
 }
+
+.inline-square:first-child {
+    width: 287px;
+    height: 287px;
+    margin-left: 105px;
+    margin-top:-120px;
+    margin-right: 72px;
+}
+
+.inline-square:nth-child(2) {
+    width: 417px;
+    height: 286px;
+    margin-top: -120px;
+}
+
+#bonus-square {
+    width: 368px;
+    height: 392px;
+    margin-left: 684px;
+    margin-top: -200px;
+}
+
+
+
 }
 
     
