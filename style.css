@@ -208,14 +208,14 @@ footer {
     max-width: 300px;
 }
 
-.inline-square-two {
+#inline-square-two {
     width: 102px;
     height: 110px;
     border: 3px solid rgb(255, 108, 75);
     display: inline-block;
     margin-right: 5.8px;
 }
-.inline-rec {
+#inline-rec {
     width: 136px;
     height: 175px;
     border: 3px solid rgb(255, 108, 75);
@@ -325,7 +325,9 @@ a {
 
 h2{
     font-size:37.72px;
-    line-height:42.8px;}
+    line-height:42.8px;
+    margin-top: -135px;
+}
 
 p{
     font-size:16px;
@@ -385,6 +387,22 @@ blockquote br {
     width: 417px;
     height: 286px;
     margin-top: -110px;
+}
+
+#inline-square-two {
+    width: 320px;
+    height: 626px;
+    margin-top: -333px;
+    margin-left: 142px;
+    margin-right: 54px;
+    border: 7px solid rgb(255, 108, 75)
+}
+
+#inline-rec {
+    width: 579px;
+    height: 677px;
+    margin-top: -172px;
+    border: 7px solid rgb(255, 108, 75)
 }
 
 }
