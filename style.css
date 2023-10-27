@@ -83,8 +83,6 @@ p{
     margin: auto;
 }
 
-
-
 h3{
     color: black;
     font-family: 'druk_wide_trialbold';
@@ -99,7 +97,6 @@ h3{
     margin:auto;
     margin-left: -8px;
     width: 84.5%;
-
 }
 
 .emoticon{
@@ -347,6 +344,10 @@ blockquote{
     font-size: 30px;
     line-height:auto;
     margin-left: 210px;
+    margin-top: -180px;
+    margin-bottom: 200px;
+    padding-top: 10px;
+    padding-bottom: 20px;
     width: 1000px;}    
 
 .emoticon {
@@ -404,6 +405,23 @@ blockquote br {
     margin-top: -172px;
     border: 7px solid rgb(255, 108, 75)
 }
+
+#behind-box {
+    width: 439px;
+    height: 498px;
+    border: 7px solid rgb(255, 108, 75);
+    margin-left: 62px;
+    margin-top: -300px;
+}
+
+p{
+    width: 960px;
+}
+
+h3{
+    width: 100%;
+}
+
 
 }
 
