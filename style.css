@@ -346,8 +346,8 @@ h4{
 blockquote{
     font-size: 30px;
     line-height:auto;
-
-    width: 1093px;}    
+    margin-left: 210px;
+    width: 1000px;}    
 
 .emoticon {
     font-size:108.02px;
