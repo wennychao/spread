@@ -22,12 +22,12 @@ body {
 h1 {
     color: rgb(255, 108, 75);
     font-family: 'druk_wide_trialbold';
-    font-size: 74px;
+    font-size: 74.2px;
     src: url('./fonts/drukwide-bold-trial-demo.html') format('woff2'),
          url('./fonts/drukwide-bold-trial-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
-    line-height: 67.5px;
+    line-height: 65px;
     margin: 14px -5px;
 }
 
@@ -43,7 +43,7 @@ h2 {
     font-weight: normal;
     font-style: normal;
     margin-left: -5px;
-    margin-top: -18px;
+    margin-top: -17px;
 }
 
 .and-symbol{
@@ -57,7 +57,7 @@ blockquote{
     font-weight: bold;
     font-size:20px;
     line-height:auto;
-    width: 133.16px;
+    width: 150px;
     background-color: black;
     padding: 8px 0px 0px 10px;
     margin-left: 72px;
@@ -71,8 +71,7 @@ p{
     font-size: 16px;
     line-height: auto;
     background-color: rgb(255, 108, 75);
-
-    padding:8px 15px 8px 15px;
+    padding:15px 15px 8px 15px;
     margin: auto;
 }
 
@@ -105,7 +104,7 @@ h3{
 
 h4{color: rgb(255, 108, 75);
     font-family: 'druk_wide_trialmedium', Helvetica, sans-serif;
-    font-size: 15px;
+    font-size: 14.7px;
     line-height:auto;
     src: url('./fonts/drukwide-medium-trial-demo.html') format('woff2'),
          url('./fonts/drukwide-medium-trial-webfont.woff') format('woff');
@@ -114,7 +113,7 @@ h4{color: rgb(255, 108, 75);
     padding: 75px 69.5px;
     border: 3px solid rgb(255, 108, 75);
     margin: auto;
-    max-width: 187px;
+    max-width: 160px;
     text-align: center;
 }
 
@@ -164,7 +163,7 @@ h4{color: rgb(255, 108, 75);
 }
 
 .footer-box:nth-child(1) {
-    margin-left: 10px;
+    margin-left: 0.5px;
 }
 
 footer {
@@ -191,14 +190,14 @@ footer {
 
 .inline-square-two {
     width: 102px;
-    height: 114px;
+    height: 110px;
     border: 3px solid rgb(255, 108, 75);
     display: inline-block;
     margin-right: 5.8px;
 }
 .inline-rec {
-    width: 135px;
-    height: 179.84px;
+    width: 136px;
+    height: 175px;
     border: 3px solid rgb(255, 108, 75);
     display: inline-block;
     margin-right: 12px;
@@ -206,8 +205,8 @@ footer {
 }
 
 #wrap-square-two {
-    margin-left: 46.5px;
-    margin-top: -256.5px;
+    margin-left: 47px;
+    margin-top: -250px;
    /*overflow-x: scroll;
     overflow-y: hidden;*/
     white-space: nowrap;
@@ -216,19 +215,19 @@ footer {
 
 #empty-box {
     background-color: black;
-    height: 140px;
+    height: 142px;
 }
 
 #behind-box {
     width: 120.5px;
-    height: 120.5px;
+    height: 132px;
     border: 3px solid rgb(255, 108, 75);
     margin-left: 52px;
 }
 
 #p1 {
     padding-top: 24px;
-    text-indent: 30px;
+    text-indent: 40px;
 }
 
 #p5 {
