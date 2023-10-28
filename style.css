@@ -290,6 +290,11 @@ a {
     color: rgb(255, 108, 75);
 }
 
+.text-link{
+    text-decoration: underline;
+    color: black;
+}
+
 #empty-box2 {
     height: 71px;
 }
