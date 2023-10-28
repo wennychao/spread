@@ -322,14 +322,15 @@ a {
 
 h2{
     font-size:36px;
-    line-height:42.8px;
+    line-height:36px;
     margin-top: -132px;
     position: absolute;
 }
 
 p{
-    width: 490px;
-    font-size: 20.9px;
+    width: 500px;
+    line-height: 22px;
+    font-size: 18px;
     margin-left: 10px;
     padding-left: 55px;
     padding-right: 717px;
@@ -423,7 +424,7 @@ blockquote{
 
 #p1{
     padding-top: 90px;
-    text-indent: 68px;
+    text-indent: 45px;
 }
 
 
