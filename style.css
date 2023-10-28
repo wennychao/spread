@@ -63,8 +63,8 @@ blockquote{
     line-height:auto;
     width: 230px;
     background-color: black;
-    padding: 8px 0px 0px 10px;
-    margin-left: 72px;
+    padding: 4px 0px 0px 10px;
+    margin-left: 40px;
     margin-top: -100px;
 }
 
@@ -235,7 +235,7 @@ footer {
     width: 120.5px;
     height: 132px;
     border: 3px solid rgb(255, 108, 75);
-    margin-left: 52px;
+    margin-left: 20px;
 }
 
 #p1 {
@@ -317,9 +317,10 @@ a {
 
 
 h2{
-    font-size:37px;
+    font-size:36px;
     line-height:42.8px;
-    margin-top: -135px;
+    margin-top: -132px;
+    position: absolute;
 }
 
 p{
@@ -383,18 +384,18 @@ blockquote{
 }
 
 #inline-square-two {
-    width: 324.5px;
+    width: 328px;
     height: 626px;
-    margin-top: -291px;
-    margin-left: 140px;
+    margin-top: -263px;
+    margin-left: 134px;
     margin-right: 54px;
     border: 7px solid rgb(255, 108, 75)
 }
 
 #inline-rec {
-    width: 579px;
+    width: 620px;
     height: 677px;
-    margin-top: -172px;
+    margin-top: -101px;
     border: 7px solid rgb(255, 108, 75)
 }
 
