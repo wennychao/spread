@@ -339,7 +339,7 @@ p{
 h3{
     font-size:110px;
     line-height:98.5%;
-    width: 1208px;
+    width: 1218px;
 }
         
 h4{
@@ -368,7 +368,7 @@ blockquote{
     }
 
 #bonus-square {
-    width: 356px;
+    width: 360px;
     height: 382px;
     margin-left: 610px;
     margin-top: -208px;
@@ -376,7 +376,7 @@ blockquote{
     }
 
 .inline-square {
-    border: 7px solid rgb(255, 108, 75);
+    border: 5px solid rgb(255, 108, 75);
 }
 
 .inline-square:first-child {
@@ -394,25 +394,25 @@ blockquote{
 }
 
 #inline-square-two {
-    width: 328px;
+    width: 329px;
     height: 626px;
     margin-top: -263px;
-    margin-left: 134px;
+    margin-left: 137.5px;
     margin-right: 54px;
-    border: 7px solid rgb(255, 108, 75)
+    border: 5px solid rgb(255, 108, 75)
 }
 
 #inline-rec {
     width: 620px;
     height: 677px;
     margin-top: -101px;
-    border: 7px solid rgb(255, 108, 75)
+    border: 5px solid rgb(255, 108, 75)
 }
 
 #behind-box {
     width: 439px;
     height: 580px;
-    border: 7px solid rgb(255, 108, 75);
+    border: 5px solid rgb(255, 108, 75);
     margin-left: 62px;
     margin-top: -330px;
 }
