@@ -328,8 +328,8 @@ h2{
 }
 
 p{
-    width: 590px;
-    font-size: 21px;
+    width: 540px;
+    font-size: 23px;
     margin-left: 10px;
     padding-left: 55px;
     padding-right: 617px;
@@ -423,6 +423,7 @@ blockquote{
 
 #p1{
     padding-top: 90px;
+    text-indent: 68px;
 }
 
 
