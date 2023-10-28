@@ -245,9 +245,7 @@ footer {
     text-indent: 40px;
 }
 
-#p5 {
-    padding-bottom: 26px;
-}
+
 
 #empty-box2 {
     height: 50px;
@@ -431,6 +429,16 @@ blockquote{
     padding-top: 90px;
     text-indent: 45px;
 }
+
+.bottom-p {
+    padding-bottom: 30px;
+}
+
+.top-p {
+    padding-top: 30px;
+}
+
+
 
 
 }
