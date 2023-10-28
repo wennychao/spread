@@ -219,7 +219,7 @@ footer {
 
 #wrap-square-two {
     margin-left: 47px;
-    margin-top: -250px;
+    margin-top: -251px;
    /*overflow-x: scroll;
     overflow-y: hidden;*/
     white-space: nowrap;
@@ -317,7 +317,7 @@ a {
 
 
 h2{
-    font-size:37.72px;
+    font-size:37px;
     line-height:42.8px;
     margin-top: -135px;
 }
@@ -344,16 +344,12 @@ blockquote{
     margin-bottom: 200px;
     padding-top: 10px;
     padding-bottom: 20px;
-    width: 900px;}    
+    width: 700px;}    
 
 .emoticon {
     font-size:108.02px;
     line-height:auto;}
 
-
-blockquote br {
-    display: none;
-    }   
 
 #table {
         text-align: left;
@@ -387,10 +383,10 @@ blockquote br {
 }
 
 #inline-square-two {
-    width: 320px;
+    width: 324.5px;
     height: 626px;
-    margin-top: -333px;
-    margin-left: 142px;
+    margin-top: -291px;
+    margin-left: 140px;
     margin-right: 54px;
     border: 7px solid rgb(255, 108, 75)
 }
