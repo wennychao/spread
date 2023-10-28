@@ -332,12 +332,13 @@ p{
     font-size: 21px;
     margin-left: 10px;
     padding-left: 55px;
-    padding-right: 600px;
+    padding-right: 617px;
 }
     
 h3{
     font-size:110px;
     line-height:98.5%;
+    width: 1208px;
 }
         
 h4{
@@ -417,9 +418,7 @@ blockquote{
 
 
 
-h3{
-    width: 100%;
-}
+
 
 
 #p1{
