@@ -65,7 +65,7 @@ blockquote{
     background-color: black;
     padding: 4px 0px 0px 10px;
     margin-left: 40px;
-    margin-top: -100px;
+    margin-top: -102px;
 }
 
 blockquote a {
@@ -97,6 +97,7 @@ h3{
     margin:auto;
     margin-left: -8px;
     width: 84.5%;
+    overflow: hidden;
 }
 
 .emoticon{
@@ -236,6 +237,7 @@ footer {
     height: 132px;
     border: 3px solid rgb(255, 108, 75);
     margin-left: 20px;
+    margin-top: 30px;
 }
 
 #p1 {
@@ -296,7 +298,9 @@ a {
     text-align: left;
 }
 
-@media screen and (min-width:1048px) {
+
+
+@media screen and (min-width:1280px) {
 
 #mobile-title {
     display: none;
@@ -324,13 +328,17 @@ h2{
 }
 
 p{
-    font-size:16px;
-    line-height:auto;
-    max-width: none;}
+    width: 590px;
+    font-size: 21px;
+    margin-left: 10px;
+    padding-left: 55px;
+    padding-right: 600px;
+}
     
 h3{
-    font-size:118.56px;
-    line-height:98.5%;}
+    font-size:110px;
+    line-height:98.5%;
+}
         
 h4{
     font-size: 45.96px;
@@ -338,14 +346,14 @@ h4{
     max-width:847.61px;}
 
 blockquote{
-    font-size: 30px;
+    font-size: 35px;
     line-height:auto;
     margin-left: 210px;
-    margin-top: -200px;
+    margin-top: -235px;
     margin-bottom: 100px;
     padding-top: 10px;
     padding-bottom: 20px;
-    width: 700px;}    
+    width: 750px;}    
 
 .emoticon {
     font-size:108.02px;
@@ -407,13 +415,15 @@ blockquote{
     margin-top: -330px;
 }
 
-p{
-    width: 960px;
-    font-size: 20px;
-}
+
 
 h3{
     width: 100%;
+}
+
+
+#p1{
+    padding-top: 90px;
 }
 
 
