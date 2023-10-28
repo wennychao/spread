@@ -341,8 +341,8 @@ blockquote{
     font-size: 30px;
     line-height:auto;
     margin-left: 210px;
-    margin-top: -180px;
-    margin-bottom: 200px;
+    margin-top: -200px;
+    margin-bottom: 100px;
     padding-top: 10px;
     padding-bottom: 20px;
     width: 700px;}    
@@ -401,10 +401,10 @@ blockquote{
 
 #behind-box {
     width: 439px;
-    height: 498px;
+    height: 580px;
     border: 7px solid rgb(255, 108, 75);
     margin-left: 62px;
-    margin-top: -300px;
+    margin-top: -330px;
 }
 
 p{
