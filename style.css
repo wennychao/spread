@@ -40,12 +40,12 @@ body {
 h2 {
     color: rgb(255, 108, 75);
     font-family: 'druk_wide_trialmedium';
-    font-size:14px;
-    line-height:17px;
     src: url('./fonts/drukwide-medium-trial-demo.html') format('woff2'),
          url('./fonts/drukwide-medium-trial-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
+    font-size:14px;
+    line-height:17px;
     margin-left: -5px;
     margin-top: -17px;
 }
@@ -86,18 +86,24 @@ p{
 h3{
     color: black;
     font-family: 'druk_wide_trialbold';
-    font-size: 60.37px;
-    line-height: 98.5%;
     src: url('./fonts/drukwide-bold-trial-demo.html') format('woff2'),
          url('./fonts/drukwide-bold-trial-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
     background-color: rgb(255, 108, 75);
+    font-size: 60.37px;
+    line-height: 98.5%;
     padding: 197px 36px 147px 36px;
     margin:auto;
     margin-left: -8px;
     width: 84.5%;
     overflow: hidden;
+}
+
+#desktop-h3-1 {
+    position: absolute;
+    font-size: 1px;
+    visibility: hidden;
 }
 
 .emoticon{
@@ -339,12 +345,63 @@ p{
     padding-right: 707px;
 }
     
+.mobile-h3 {
+    display: none;
+}
+
 h3{
+    color: black;
+    font-family: 'druk_wide_trialbold';
+    src: url('./fonts/drukwide-bold-trial-demo.html') format('woff2'),
+         url('./fonts/drukwide-bold-trial-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    background-color: rgb(255, 108, 75);
     font-size:110px;
     line-height:98.5%;
     width: 1208px;
+    text-align: right;
+    padding: 20px;
 }
-        
+
+#desktop-h3-1 {
+    visibility: visible;
+    position: relative;
+}
+
+#things {
+    margin-right: -30px;
+}
+
+#have {
+    margin-right:300px;
+}
+
+#gotten {
+    margin-right: 330px;
+}
+
+#messy {
+    margin-right: 40px;
+}
+
+#havent {
+    margin-right: 150px;
+}
+
+#they {
+    margin-right: 140px;
+}
+
+.space:first-child {
+    margin-right: 41px;
+}
+
+.space:nth-child(2) {
+    margin-right: 213px;
+}
+
+
 h4{
     font-size: 45.96px;
     line-height:auto;
