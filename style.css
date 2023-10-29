@@ -512,7 +512,7 @@ blockquote{
 
 #define-1{
     margin-left: 355px;
-    margin-top: 280px;
+    margin-top: 150px;
 }
 
 .orange-rec {
@@ -530,11 +530,14 @@ blockquote{
 }
 
 #float {
-    margin-top: -500px;
+    margin-top: -370px;
     margin-left: 530px;
-    margin-bottom: 300px;
+    margin-bottom: 270px;
 }
 
+#or2 {
+    height: 100px;
+}
 }
 
 /*
