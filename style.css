@@ -325,7 +325,7 @@ a {
 
 h2{
     font-size:36px;
-    line-height:36px;
+    line-height:40px;
     margin-top: -132px;
     position: absolute;
 }
@@ -357,7 +357,7 @@ h4{
 blockquote{
     font-size: 35px;
     line-height:auto;
-    margin-left: 210px;
+    margin-left: 140px;
     margin-top: -235px;
     margin-bottom: 100px;
     padding-top: 10px;
