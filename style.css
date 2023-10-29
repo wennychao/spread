@@ -538,6 +538,24 @@ blockquote{
 #or2 {
     height: 100px;
 }
+
+#or3 {
+    display: none;
+}
+
+#define-4 {
+    width: 450px;
+    margin-left: 315px;
+}
+
+#flex {
+    margin-bottom: -60px;
+}
+
+#grid {
+    margin-top: -60px;
+}
+
 }
 
 /*
