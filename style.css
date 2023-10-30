@@ -366,6 +366,9 @@ h3{
     line-height:98.5%;
     width: 1208px;
     text-align: right;
+    padding-top: 50px;
+    padding-bottom: 50px;
+
 }
 
 #desktop-h3-1 {
@@ -374,19 +377,19 @@ h3{
 }
 
 #things {
-    margin-right: -30px;
+    margin-left: 695px;
 }
 
 #have {
-    margin-right:300px;
+    margin-right:275px;
 }
 
 #gotten {
-    margin-right: 330px;
+    margin-right: 350px;
 }
 
 #messy {
-    margin-right: 40px;
+    margin-right: 20px;
 }
 
 #havent {
@@ -394,11 +397,11 @@ h3{
 }
 
 #they {
-    margin-right: 140px;
+    margin-right: 99px;
 }
 
 .space:first-child {
-    margin-right: 41px;
+    margin-right: 50px;
 }
 
 .space:nth-child(2) {
