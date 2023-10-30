@@ -308,7 +308,7 @@ a {
     height: 71px;
 }
 
-#left {
+.simple {
     text-align: left;
 }
 
@@ -614,6 +614,10 @@ blockquote{
     margin-bottom: 270px;
 }
 
+.simple {
+    margin-bottom: 200px;
+}
+
 #or2 {
     height: 100px;
 }
@@ -633,6 +637,7 @@ blockquote{
 
 #grid {
     margin-top: -60px;
+    margin-bottom: 200px;
 }
 
 .center {
