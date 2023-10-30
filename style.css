@@ -106,6 +106,18 @@ h3{
     visibility: hidden;
 }
 
+#desktop-h3-2 {
+    position: absolute;
+    font-size: 1px;
+    visibility: hidden;
+}
+
+#desktop-h3-3 {
+    position: absolute;
+    font-size: 1px;
+    visibility: hidden;
+}
+
 .emoticon{
     color: black;
     font-family: Helvetica, sans-serif;
@@ -176,6 +188,7 @@ color: black;
 footer {
     display: flex;
     margin-bottom: 20px;
+    
 }
 
 .inline-square {
@@ -358,7 +371,6 @@ h3{
     line-height:98.5%;
     width: 1208px;
     text-align: right;
-    padding: 20px;
 }
 
 #desktop-h3-1 {
@@ -398,6 +410,50 @@ h3{
     margin-right: 213px;
 }
 
+#desktop-h3-2 {
+    visibility: visible;
+    position: relative;
+}
+
+#people {
+    margin-right: 700px;
+}
+
+#only {
+    margin-right: 900px;
+}
+
+#have1 {
+    margin-right: 210px;
+}
+
+#desktop-h3-3 {
+    visibility: visible;
+    position: relative;
+}
+
+#and {
+    margin-right: 290px;
+}
+
+#fix {
+    margin-right: 695px;
+}
+
+#sunglasses {
+    margin-right: 280px;
+}
+
+#dotdotface {
+    margin-right: 520px;
+}
+
+.indent {
+    margin-right: 20px;
+}
+#things {
+    margin-right: 900px;
+}
 h4{
     font-size: 35px;
     line-height:auto;
@@ -405,6 +461,22 @@ h4{
     border: 5px solid rgb(255, 108, 75);
     margin-left: 10px;
     padding: 100px 50px;
+}
+
+#patien {
+    margin-right: 680px;
+}
+
+#hyphen {
+    margin-right: 480px;
+}
+
+#ce {
+   margin-right: 200px;
+}
+
+#angry {
+    font-size: 320px;
 }
 
 .overlap {
@@ -556,30 +628,9 @@ blockquote{
     margin-top: -60px;
 }
 
+
 }
 
-/*
-#top-button{
-    margin-left: 450px;
-    margin-top: 50px;
-}
-
-.footer-box {
-    width: 85px;
-    height: 115.8px;
-    border: 3px solid rgb(255, 108, 75);
-    margin-right: 10px;
-}
-
-.footer-box:nth-child(1) {
-    margin-left: 16px;
-}
-
-footer {
-    display: flex;
-    margin-bottom: 20px;
-}
-*/
 
 
 
