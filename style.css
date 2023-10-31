@@ -22,12 +22,12 @@ body {
 #mobile-title {
     color: rgb(255, 108, 75);
     font-family: 'druk_wide_trialbold';
-    font-size: 74.2px;
     src: url('./fonts/drukwide-bold-trial-demo.html') format('woff2'),
          url('./fonts/drukwide-bold-trial-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
-    line-height: 65px;
+    font-size: clamp(4.625rem, 11vw, 14.75rem);
+    line-height: clamp(4.0625rem, 9.3vw, 14rem);
     margin: 14px -5px;
     margin-top: -22px;
 }
@@ -43,10 +43,10 @@ h2 {
          url('./fonts/drukwide-medium-trial-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
-    font-size:14px;
-    line-height:17px;
-    margin-left: -5px;
+    font-size: clamp(0.875rem, 3vw, 2rem);
+    line-height: clamp(17px, 2.7vw, 2.3rem);
     margin-top: -17px;
+    margin-left: -5px;
 }
 
 .and-symbol{
@@ -58,17 +58,23 @@ blockquote{
     color: rgb(255, 108, 75);
     font-family: Helvetica, sans-serif;
     font-weight: bold;
-    font-size:20px;
+    font-size: clamp(20px, 2.4vw, 40px);
     line-height:auto;
-    width: 230px;
+    min-width: 230px;
+    max-width: 700px;
     background-color: black;
     padding: 4px 0px 0px 10px;
-    margin-left: 40px;
-    margin-top: -102px;
+    margin-top: -15vh;
+    margin-bottom: 10vh;
+    margin-left: 10vw;
 }
 
 blockquote a {
     text-decoration: underline;
+}
+
+section {
+    background-color: rgb(255, 108, 75);
 }
 
 p{
@@ -80,6 +86,8 @@ p{
     background-color: rgb(255, 108, 75);
     padding:15px 15px 8px 15px;
     margin: auto;
+    min-width: 300px;
+    max-width: 450px;
 }
 
 h3{
@@ -90,15 +98,17 @@ h3{
     font-weight: normal;
     font-style: normal;
     background-color: rgb(255, 108, 75);
-    font-size: 60.37px;
+    font-size: clamp(60.37px, 9vw, 100px);
     line-height: 98.5%;
     padding: 197px 36px 147px 36px;
     margin:auto;
-    margin-left: -8px;
-    width: 84.5%;
     overflow: hidden;
 }
 
+.heading3 {
+    margin-left: -8px;
+    margin-right: -8px;
+}
 #desktop-h3-1 {
     position: absolute;
     display: none;
@@ -118,7 +128,7 @@ h3{
     color: black;
     font-family: Helvetica, sans-serif;
     font-weight: bold;
-    font-size: 60px;
+    font-size: clamp(60px, 8.9vw, 100px);
     margin-left: 38px;
 }
 
@@ -126,6 +136,7 @@ h4{
     color: rgb(255, 108, 75);
     font-family: 'druk_wide_trialmedium', Helvetica, sans-serif;
     font-size: 14.7px;
+    font-size: clamp(14.7px, 3.5vw, 33px);
     line-height:auto;
     src: url('./fonts/drukwide-medium-trial-demo.html') format('woff2'),
          url('./fonts/drukwide-medium-trial-webfont.woff') format('woff');
@@ -134,7 +145,8 @@ h4{
     padding: 75px 69.5px;
     border: 3px solid rgb(255, 108, 75);
     margin: auto;
-    max-width: 160px;
+    margin-top: -18px;
+    max-width: 45vw;
     text-align: center;
 }
 
@@ -167,7 +179,7 @@ h4{
 }
 
 #top-button:hover a{
-color: black; 
+    color: black; 
 }
 
 .footer-box {
@@ -186,12 +198,19 @@ footer {
     margin-bottom: 20px;
 }
 
+.center {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
 .inline-square {
-    width: 120.5px;
-    height: 120.5px;
+    width: 42%;
+    height: 42%;
+    aspect-ratio: 1 /1;
     border: 3px solid rgb(255, 108, 75);
     display: inline-block;
-    margin-right: 5.8px;
+    margin-right: 2vw;
 }
 
 #bonus-square {
@@ -203,22 +222,23 @@ footer {
 #wrap-square {
     margin-left: -60px;
     margin-top: -80px;
-    /*overflow-x: scroll;
-    overflow-y: hidden;*/
     white-space: nowrap;
-    max-width: 300px;
+    max-width: 80%;
 }
 
 #inline-square-two {
     width: 102px;
     height: 110px;
+    aspect-ratio: 1/1;
     border: 3px solid rgb(255, 108, 75);
     display: inline-block;
-    margin-right: 5.8px;
+    margin-right: 2vw;
 }
+
 #inline-rec {
     width: 136px;
     height: 175px;
+    aspect-ratio: 1 /1;
     border: 3px solid rgb(255, 108, 75);
     display: inline-block;
     margin-right: 12px;
@@ -228,10 +248,10 @@ footer {
 #wrap-square-two {
     margin-left: 47px;
     margin-top: -251px;
-   /*overflow-x: scroll;
-    overflow-y: hidden;*/
     white-space: nowrap;
     max-width: 245px;
+    max-width: 80%;
+    max-height: 200px;
 }
 
 #empty-box {
@@ -240,8 +260,9 @@ footer {
 }
 
 #behind-box {
-    width: 120.5px;
-    height: 132px;
+    width: 34%;
+    height: 44%;
+    aspect-ratio: 1/1;
     border: 3px solid rgb(255, 108, 75);
     margin-left: 20px;
     margin-top: 30px;
@@ -251,8 +272,6 @@ footer {
     padding-top: 24px;
     text-indent: 40px;
 }
-
-
 
 #empty-box2 {
     height: 50px;
@@ -272,12 +291,9 @@ footer {
     padding-bottom: 16px;
 }
 
-.overlap {
-    margin-top: -18px;
-}
-
 #table {
     text-align: left;
+    padding-left: 20vw;
 }
 
 .bottom-p {
@@ -312,9 +328,93 @@ a {
     text-align: left;
 }
 
+@media screen and (min-width:600px) and (max-width:840px){
+    .inline-square {
+        border: 4px solid rgb(255, 108, 75);
+    }
 
+    #wrap-square {
+        margin-left: -4vw;
+        margin-top: -18vh;
+        margin-bottom: 4vh;
+        max-width: 80%;
+        min-height: 20vh;
+    }    
+
+
+    #inline-square-two {
+        border: 4px solid rgb(255, 108, 75);
+        width: calc(26.5vw + 1vw);
+        height: calc(16vh * 2);
+    }
+    
+    #inline-rec {
+        border: 4px solid rgb(255, 108, 75);
+        width: calc(36.2vw + 1vw);
+        height: calc(26vh * 2);
+    }
+
+    #wrap-square-two {
+        margin-left: 10vw;
+    }
+}
+ 
+@media screen and (min-width:841px) and (max-width:1279px){
+    
+    .inline-square:first-child {
+        border: 4px solid rgb(255, 108, 75);
+        width: 250px;
+        height: 260px;
+        margin-right: 5vw;
+    }
+
+    .inline-square {
+        border: 4px solid rgb(255, 108, 75);
+    }
+
+    #wrap-square {
+        margin-left: 0vw;
+        margin-top: -30vh;
+        margin-bottom: 4vh;
+        max-width: 80%;
+    } 
+
+    #inline-square-two {
+        border: 4px solid rgb(255, 108, 75);
+        width: 26.5vw;
+        height: calc(16vh * 3.5);
+        margin-top: -17vh;
+        margin-right: 4vw;
+        margin-left: 1vw;
+    }
+    
+    #inline-rec {
+        border: 4px solid rgb(255, 108, 75);
+        width: calc(36.2vw + 10vw);
+        height: calc(26vh * 2.5);
+    }
+
+    #wrap-square-two {
+        margin-left: 13vw;
+        margin-top: -40vh;
+    }
+
+    #behind-box {
+        height: 50vh;
+        border: 3px solid rgb(255, 108, 75);
+        margin-left: 5vw;
+        margin-top: 30px;
+    }
+
+    blockquote {
+        margin-top: -18vh;
+        margin-bottom: 15vh;
+    }
+}
 
 @media screen and (min-width:1280px) {
+
+/* heading 1 */
 
 #mobile-title {
     display: none;
@@ -333,6 +433,7 @@ a {
     margin-top: -164px;
 }
 
+/* heading 2 */
 
 h2{
     font-size:36px;
@@ -341,15 +442,8 @@ h2{
     position: absolute;
 }
 
-p{
-    width: 500px;
-    line-height: 22px;
-    font-size: 18px;
-    margin-left: 10px;
-    padding-left: 55px;
-    padding-right: 707px;
-}
-    
+/* heaading 3 */
+
 .mobile-h3 {
     display: none;
 }
@@ -370,6 +464,8 @@ h3{
     padding-bottom: 50px;
 
 }
+
+/* things have gotton messy havent they */
 
 #desktop-h3-1 {
     display: block;
@@ -408,6 +504,8 @@ h3{
     margin-right: 213px;
 }
 
+/* people only have so much patient*/
+
 #desktop-h3-2 {
     display: block;
     position: relative;
@@ -417,7 +515,6 @@ h3{
     margin-right: 540px;
 }
 
-
 #only {
     margin-right: 872px;
 }
@@ -425,6 +522,30 @@ h3{
 #have1 {
     margin-right: 260px;
 }
+
+#somuch{
+    margin-right: 15px;
+}
+
+#patien {
+    margin-right: 650px;
+}
+
+#hyphen {
+    margin-right: 480px;
+}
+
+#ce {
+   margin-right: 310px;
+}
+
+#angry {
+    font-size: 310px;
+    margin-left: -75px;
+    position: absolute;
+}
+
+/* go slow and fix things*/
 
 #desktop-h3-3 {
     display: block;
@@ -455,6 +576,8 @@ h3{
     margin-right: 700px;
 }
 
+/* heading 4 */
+
 h4{
     font-size: 35px;
     line-height:auto;
@@ -462,28 +585,6 @@ h4{
     border: 5px solid rgb(255, 108, 75);
     margin-left: 10px;
     padding: 100px 50px;
-}
-
-#somuch{
-    margin-right: 15px;
-}
-
-#patien {
-    margin-right: 650px;
-}
-
-#hyphen {
-    margin-right: 480px;
-}
-
-#ce {
-   margin-right: 310px;
-}
-
-#angry {
-    font-size: 310px;
-    margin-left: -75px;
-    position: absolute;
 }
 
 .overlap {
@@ -505,6 +606,27 @@ h4{
     padding-bottom: 150px;
 }
 
+#float {
+    margin-top: -370px;
+    margin-left: 530px;
+    margin-bottom: 270px;
+}
+
+.simple {
+    margin-bottom: 200px;
+}
+
+#flex {
+    margin-bottom: -60px;
+}
+
+#grid {
+    margin-top: -60px;
+    margin-bottom: 200px;
+}
+
+/*blockquote*/
+
 blockquote{
     font-size: 30px;
     line-height:auto;
@@ -513,11 +635,25 @@ blockquote{
     margin-bottom: 100px;
     padding-top: 10px;
     padding-bottom: 20px;
-    width: 700px;}    
+    width: 700px;
+}    
+
+#behind-box {
+    width: 439px;
+    height: 580px;
+    border: 5px solid rgb(255, 108, 75);
+    margin-left: 62px;
+    margin-top: 56px;
+}
+
+/*emoticon*/
 
 .emoticon {
     font-size:108.02px;
-    line-height:auto;}
+    line-height:auto;
+}
+
+/* top title section*/
 
 #bonus-square {
     width: 360px;
@@ -561,12 +697,15 @@ blockquote{
     border: 5px solid rgb(255, 108, 75)
 }
 
-#behind-box {
-    width: 439px;
-    height: 580px;
-    border: 5px solid rgb(255, 108, 75);
-    margin-left: 62px;
-    margin-top: -330px;
+/* paragraph*/
+
+p{
+    max-width: 500px;
+    line-height: 22px;
+    font-size: 18px;
+    margin-left: 10px;
+    padding-left: 55px;
+    padding-right: 707px;
 }
 
 #p1{
@@ -594,6 +733,13 @@ blockquote{
     margin-top: 150px;
 }
 
+#define-4 {
+    width: 450px;
+    margin-left: 315px;
+}
+
+/* orange boxes */
+
 .orange-rec {
     max-width: 560px;
     height: 130px;
@@ -608,16 +754,6 @@ blockquote{
     display: none;
 }
 
-#float {
-    margin-top: -370px;
-    margin-left: 530px;
-    margin-bottom: 270px;
-}
-
-.simple {
-    margin-bottom: 200px;
-}
-
 #or2 {
     height: 100px;
 }
@@ -626,25 +762,7 @@ blockquote{
     display: none;
 }
 
-#define-4 {
-    width: 450px;
-    margin-left: 315px;
-}
-
-#flex {
-    margin-bottom: -60px;
-}
-
-#grid {
-    margin-top: -60px;
-    margin-bottom: 200px;
-}
-
-.center {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-}
+/* footer */
 
 .footer-box {
     width: 115.8px;
