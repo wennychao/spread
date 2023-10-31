@@ -19,6 +19,9 @@ body {
     background-color: black;
 }
 
+
+/* heading 1 */
+
 #mobile-title {
     color: rgb(255, 108, 75);
     font-family: 'druk_wide_trialbold';
@@ -36,6 +39,8 @@ body {
     display: none;
 }
 
+/* heading 2 */
+
 h2 {
     color: rgb(255, 108, 75);
     font-family: 'druk_wide_trialmedium';
@@ -49,46 +54,7 @@ h2 {
     margin-left: -5px;
 }
 
-.and-symbol{
-    font-family: Helvetica, sans-serif;
-    font-weight: regular;  
-}
-
-blockquote{
-    color: rgb(255, 108, 75);
-    font-family: Helvetica, sans-serif;
-    font-weight: bold;
-    font-size: clamp(20px, 2.4vw, 40px);
-    line-height:auto;
-    min-width: 230px;
-    max-width: 700px;
-    background-color: black;
-    padding: 4px 0px 0px 10px;
-    margin-top: -15vh;
-    margin-bottom: 10vh;
-    margin-left: 10vw;
-}
-
-blockquote a {
-    text-decoration: underline;
-}
-
-section {
-    background-color: rgb(255, 108, 75);
-}
-
-p{
-    color: black;
-    font-family: Helvetica, sans-serif;
-    font-weight: regular;
-    font-size: 16px;
-    line-height: auto;
-    background-color: rgb(255, 108, 75);
-    padding:15px 15px 8px 15px;
-    margin: auto;
-    min-width: 300px;
-    max-width: 450px;
-}
+/* heading 3 */
 
 h3{
     color: black;
@@ -124,13 +90,11 @@ h3{
     display: none;
 }
 
-.emoticon{
-    color: black;
-    font-family: Helvetica, sans-serif;
-    font-weight: bold;
-    font-size: clamp(60px, 8.9vw, 100px);
-    margin-left: 38px;
+#empty-box2 {
+    height: 71px;
 }
+
+/* heading 4 */
 
 h4{ 
     color: rgb(255, 108, 75);
@@ -158,51 +122,136 @@ h4{
     margin-left: 40px;
 }
 
-#top-button{
-    max-width: 50px;
+.define {
+    margin-top: 98px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+
+#table {
+    text-align: left;
+    padding-left: 20vw;
+}
+
+.simple {
+    text-align: left;
+}
+
+
+/* symbol */
+
+.and-symbol{
+    font-family: Helvetica, sans-serif;
+    font-weight: regular;  
+}
+
+/* blockquote*/
+
+blockquote{
     color: rgb(255, 108, 75);
     font-family: Helvetica, sans-serif;
     font-weight: bold;
-    font-size: 20px;
-    border-style: solid;
-    border-width: 3px;
-    border-color: rgb(255, 108, 75);
-    padding-top: 21px;
-    padding-bottom: 25px;
-    padding-left: 19px;
-    padding-right: 47px; 
-    margin-right: 10px;
+    font-size: clamp(20px, 2.4vw, 40px);
+    line-height:auto;
+    min-width: 230px;
+    max-width: 700px;
+    background-color: black;
+    padding: 4px 0px 0px 10px;
+    margin-top: -15vh;
+    margin-bottom: 10vh;
+    margin-left: 10vw;
 }
 
-#top-button:hover{
-   background-color: rgb(255, 108, 75);
+blockquote a {
+    text-decoration: underline;
 }
 
-#top-button:hover a{
-    color: black; 
+#empty-box {
+    background-color: black;
+    height: 142px;
 }
 
-.footer-box {
-    width: 85px;
-    height: 115.8px;
+#behind-box {
+    width: 34%;
+    height: 44%;
+    aspect-ratio: 1/1;
     border: 3px solid rgb(255, 108, 75);
-    margin-right: 10px;
+    margin-left: 20px;
+    margin-top: 30px;
 }
 
-.footer-box:nth-child(1) {
-    margin-left: 16px;
+/* link */
+
+a {
+    text-decoration: none;
+    color: rgb(255, 108, 75);
 }
 
-footer {
-    display: flex;
-    margin-bottom: 20px;
+.text-link{
+    text-decoration: underline;
+    color: black;
 }
 
-.center {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+/* orange boxes */
+
+.orange-rec {
+    max-width: 252px;
+    height:53px;
+    background-color: rgb(255, 108, 75);
+    margin: auto;
+    margin-top: -10px;
 }
+
+/* section */
+
+section {
+    background-color: rgb(255, 108, 75);
+}
+
+/* paragraph */
+
+p{
+    color: black;
+    font-family: Helvetica, sans-serif;
+    font-weight: regular;
+    font-size: 16px;
+    line-height: auto;
+    background-color: rgb(255, 108, 75);
+    padding:15px 15px 8px 15px;
+    margin: auto;
+    min-width: 300px;
+    max-width: 450px;
+}
+
+#p1 {
+    padding-top: 24px;
+    text-indent: 40px;
+}
+
+.bottom-p {
+    padding-bottom: 16px;
+}
+
+.top-p {
+    padding-top: 16px;
+}
+
+.p-space {
+    margin-top: 71px;
+    padding-top: 16px;
+}
+
+/* emoticon */
+
+.emoticon{
+    color: black;
+    font-family: Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: clamp(60px, 8.9vw, 100px);
+    margin-left: 38px;
+}
+
+/* top title section mobile */
 
 .inline-square {
     width: 42%;
@@ -254,78 +303,52 @@ footer {
     max-height: 200px;
 }
 
-#empty-box {
-    background-color: black;
-    height: 142px;
+/* footer */
+
+footer {
+    display: flex;
+    margin-bottom: 20px;
 }
 
-#behind-box {
-    width: 34%;
-    height: 44%;
-    aspect-ratio: 1/1;
-    border: 3px solid rgb(255, 108, 75);
-    margin-left: 20px;
-    margin-top: 30px;
+.center {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
-#p1 {
-    padding-top: 24px;
-    text-indent: 40px;
-}
-
-#empty-box2 {
-    height: 50px;
-}
-
-.orange-rec {
-    max-width: 252px;
-    height:53px;
-    background-color: rgb(255, 108, 75);
-    margin: auto;
-    margin-top: -10px;
-}
-
-.define {
-    margin-top: 98px;
-    padding-top: 16px;
-    padding-bottom: 16px;
-}
-
-#table {
-    text-align: left;
-    padding-left: 20vw;
-}
-
-.bottom-p {
-    padding-bottom: 16px;
-}
-
-.top-p {
-    padding-top: 16px;
-}
-
-.p-space {
-    margin-top: 71px;
-    padding-top: 16px;
-
-}
-
-a {
-    text-decoration: none;
+#top-button{
+    max-width: 50px;
     color: rgb(255, 108, 75);
+    font-family: Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    border-style: solid;
+    border-width: 3px;
+    border-color: rgb(255, 108, 75);
+    padding-top: 21px;
+    padding-bottom: 25px;
+    padding-left: 19px;
+    padding-right: 47px; 
+    margin-right: 10px;
 }
 
-.text-link{
-    text-decoration: underline;
-    color: black;
+#top-button:hover{
+   background-color: rgb(255, 108, 75);
 }
 
-#empty-box2 {
-    height: 71px;
+#top-button:hover a{
+    color: black; 
 }
 
-.simple {
-    text-align: left;
+.footer-box {
+    width: 85px;
+    height: 115.8px;
+    border: 3px solid rgb(255, 108, 75);
+    margin-right: 10px;
+}
+
+.footer-box:nth-child(1) {
+    margin-left: 16px;
 }
 
 @media screen and (min-width:600px) and (max-width:840px){
@@ -653,7 +676,7 @@ blockquote{
     line-height:auto;
 }
 
-/* top title section*/
+/* top title section desktop */
 
 #bonus-square {
     width: 360px;
