@@ -495,11 +495,9 @@ h3{
     background-color: rgb(255, 108, 75);
     font-size:110px;
     line-height:98.5%;
-    width: 1208px;
     text-align: right;
     padding-top: 50px;
     padding-bottom: 50px;
-
 }
 
 /* things have gotton messy havent they */
@@ -641,6 +639,7 @@ h4{
     padding-top: 150px;
     padding-right: -50px;
     padding-bottom: 150px;
+    margin-left: 0;
 }
 
 #float {
@@ -651,15 +650,18 @@ h4{
 
 .simple {
     margin-bottom: 200px;
+    margin-left: 0;
 }
 
 #flex {
     margin-bottom: -60px;
+    margin-left: 0;
 }
 
 #grid {
     margin-top: -60px;
     margin-bottom: 200px;
+    margin-left: 0;
 }
 
 /*blockquote*/
@@ -770,6 +772,10 @@ p{
     margin-top: 150px;
 }
 
+#define-2 {
+    margin-left: 0;
+}
+
 #define-4 {
     width: 450px;
     margin-left: 315px;
@@ -781,18 +787,19 @@ p{
     max-width: 560px;
     height: 130px;
     background-color: rgb(255, 108, 75);
-    margin-left: 10px;
+    margin-left: 0;
     margin-top: -10px;
 }
 
 #or1 {
-    margin-left: 430px;
+    margin-left: 0;
     margin-top: -300px;
     display: none;
 }
 
 #or2 {
     height: 100px;
+    margin-left: 0;
 }
 
 #or3 {
@@ -893,6 +900,7 @@ h4 {
 .simple {
     padding-left: 20px;
     padding-right: 20px;
+    margin-left: -10px;
 }
 
 /* blockquote */
@@ -917,6 +925,9 @@ a {
     text-decoration: none;
 }
 
+.text-link{
+    text-decoration: none;
+}
 /* emoticon */
 
 .emoticon {
