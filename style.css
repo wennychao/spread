@@ -216,6 +216,7 @@ section {
 
 p{
     color: black;
+    background-color:rgb(255, 108, 75);
     font-family: Helvetica, sans-serif;
     font-weight: regular;
     font-size: 16px;
@@ -907,8 +908,13 @@ blockquote {
 
 /* link */
 
-a {
+blockquote a {
     color: var(--font-color);
+    text-decoration: none;
+}
+
+a {
+    text-decoration: none;
 }
 
 /* emoticon */
@@ -923,6 +929,7 @@ a {
 
 p {
     font-size: 12px;
+    background-color: var(--background);
 }
 
 .define {
